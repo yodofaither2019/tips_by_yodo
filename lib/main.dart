@@ -25,7 +25,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.grey,
         scaffoldBackgroundColor: ColorConfig.loginBackground,
       ),
-      home: Graph(),
+      home: LogUpPage(),
+      //home: Graph(),
     );
   }
 }
